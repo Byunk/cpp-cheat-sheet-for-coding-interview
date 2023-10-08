@@ -41,7 +41,7 @@ void main(int i, int j) {
 
 ```cpp
 matrix operator * (const matrix& a, const matrix& b) {
-	matrix ret(N, vector<ll>(N));
+matrix ret(N, vector<ll>(N));
 
 	for (int i = 0; i < N; ++i) {
 		for (int j = 0; j < N; ++j) {
