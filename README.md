@@ -1,5 +1,7 @@
 # C++ cheat sheet for interview
 
+- [Common Mistakes](common_mistakes.md)
+
 ## Code Snippet
 
 ### Modify the synchronization behavior between C++'s standard input and output streams. 
