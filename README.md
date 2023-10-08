@@ -41,16 +41,16 @@ void main(int i, int j) {
 
 ```cpp
 matrix operator * (const matrix& a, const matrix& b) {
-matrix ret(N, vector<ll>(N));
+  matrix ret(N, vector<ll>(N));
 
-	for (int i = 0; i < N; ++i) {
-		for (int j = 0; j < N; ++j) {
-			for (int k = 0; k < N; ++k) {
-				ret[i][j] += a[i][k] * b[k][j];
-			}
-			ret[i][j] %= 1000;
-		}
-	}
-	return ret;
+  for (int i = 0; i < N; ++i) {
+    for (int j = 0; j < N; ++j) {
+      for (int k = 0; k < N; ++k) {
+          ret[i][j] += a[i][k] * b[k][j];
+      }
+      ret[i][j] %= 1000;
+    }
+  }
+  return ret;
 }
 ```
