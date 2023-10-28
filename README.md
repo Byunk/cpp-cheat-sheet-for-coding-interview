@@ -22,6 +22,25 @@ int cache[101][101];
 memset(cache, -1, sizeof(cache));
 ```
 
+### Accumulate array elements
+
+```cpp
+#include <numeric>
+
+int arr[100];
+
+int sum_arr = accumulate(begin(arr), end(arr), 0, plus<int>());
+```
+
+### Int max and min
+
+```cpp
+#include <limits.h>
+
+int int_max = INT_MAX;
+int int_min = INT_MIN;
+```
+
 ## Memoization
 
 ### Implementation pattern
