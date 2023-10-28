@@ -16,6 +16,8 @@ cin.tie(NULL);
 ! Do not use this method with values other than -1 or 0.
 
 ```cpp
+#include <string.h>
+
 int cache[101][101];
 memset(cache, -1, sizeof(cache));
 ```
