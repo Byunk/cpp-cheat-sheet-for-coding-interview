@@ -1,0 +1,10 @@
+# general
+.vscode/
+.DS_STORE
+
+# scripts
+main.cpp
+main
+input.txt
+
+
