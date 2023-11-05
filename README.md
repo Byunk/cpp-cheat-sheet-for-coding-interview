@@ -96,6 +96,16 @@ int int_max = INT_MAX;
 int int_min = INT_MIN;
 ```
 
+### [Assert](https://en.cppreference.com/w/cpp/error/assert)
+
+```cpp
+assert(2+2==4);
+assert((void("void helps to avoid 'unused value' warning"), 2*2==4));
+assert((010+010==16) && "Yet another way to add an assert message");
+assertm((2+2)%3==1, "Expect expected");
+assertm(2+2==5, "There are five lights"); // assertion fails
+```
+
 ## Patterns
 
 ### Memoization
