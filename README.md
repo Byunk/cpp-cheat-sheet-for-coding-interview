@@ -14,6 +14,7 @@ Basic usage:
 int s[10] = {5, 7, 4, 2, 8, 6, 1, 9, 0, 3};
 std::sort(s.begin(), s.end()); // 0 1 2 3 4 5 6 7 8 9
 ```
+
 With custom compare operator:
 
 ```cpp
@@ -82,7 +83,7 @@ Basic usage:
 #include <numeric>
 
 std::vector<int> v {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
- 
+
 int sum = std::accumulate(v.begin(), v.end(), 0); // 55
 int product = std::accumulate(v.begin(), v.end(), 1, std::multiplies<int>()); // 3628800
 ```
@@ -105,6 +106,10 @@ assert((010+010==16) && "Yet another way to add an assert message");
 assertm((2+2)%3==1, "Expect expected");
 assertm(2+2==5, "There are five lights"); // assertion fails
 ```
+
+## Algorithms
+
+-   [Flood Fill](https://en.wikipedia.org/wiki/Flood_fill): [source code](algorithm/floodfill.cpp)
 
 ## Patterns
 
