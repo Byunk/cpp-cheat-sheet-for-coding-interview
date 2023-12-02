@@ -9,6 +9,7 @@ function setup () {
 	cat > "$SCRIPTPATH/../main.cpp" << EOF
 #include <iostream>
 #include <vector>
+#include <set>
 #include <queue>
 #include <algorithm>
 #include <string.h>
@@ -22,6 +23,9 @@ void solve() {
 
 int main() {
 	freopen("input.txt", "r", stdin);
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+
 	solve();
 }
 
