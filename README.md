@@ -155,7 +155,7 @@ int cache[101][101];
 memset(cache, -1, sizeof(cache));
 ```
 
-### Initialization with `fill_n`
+### Initialization with [`fill_n`](https://en.cppreference.com/w/cpp/algorithm/fill_n)
 
 ```cpp
 #include <algorithm>
