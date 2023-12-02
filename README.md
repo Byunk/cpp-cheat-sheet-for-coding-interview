@@ -154,3 +154,14 @@ cin.tie(NULL);
 int cache[101][101];
 memset(cache, -1, sizeof(cache));
 ```
+
+### Initialization with `fill_n`
+
+```cpp
+#include <algorithm>
+
+int main()
+{
+    std::vector<int> v1{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    std::fill_n(v1.begin(), 5, -1); // -1 -1 -1 -1 -1 5 6 7 8 9
+}
