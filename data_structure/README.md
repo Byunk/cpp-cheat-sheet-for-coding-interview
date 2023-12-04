@@ -1,3 +1,3 @@
 # Data Structure
 
-- [RSU](RSU.md)
+- [DSU](DSU.md)
