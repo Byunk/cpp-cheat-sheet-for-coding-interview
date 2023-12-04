@@ -1,3 +1,3 @@
 # Data Structure
 
-- [DSU](DSU.md)
+- [Disjoint Set Union](DSU.md)

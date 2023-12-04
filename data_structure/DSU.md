@@ -1,5 +1,9 @@
 # Disjoint Set Union
 
+## Usage
+
+- Checking Connectivity in graph
+
 ## Implementation
 
 ```cpp
@@ -29,10 +33,6 @@ struct DSU {
 `get`: `O(log n)` for the first call, then `O(1)` due to path compression
 
 `unite`: depends on `get`
-
-## Usage
-
-- Checking Connectivity in graph
 
 ## Problems
 
