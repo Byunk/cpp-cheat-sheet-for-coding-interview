@@ -12,21 +12,18 @@ function setup () {
 #include <set>
 #include <queue>
 #include <algorithm>
-#include <string.h>
+#include <string>
 #include <limits.h>
-	
+#include <cmath>
 using namespace std;
 
-void solve() {
 
-}
 
 int main() {
 	freopen("input.txt", "r", stdin);
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 
-	solve();
 }
 
 EOF
