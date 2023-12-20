@@ -7,18 +7,8 @@ function setup () {
 	mv "$SCRIPTPATH/../main.cpp" "$SCRIPTPATH/../backup/main.cpp"
 
 	cat > "$SCRIPTPATH/../main.cpp" << EOF
-#include <iostream>
-#include <vector>
-#include <set>
-#include <queue>
-#include <algorithm>
-#include <string>
-#include <limits.h>
-#include <cmath>
-#include <map>
+#include <bits/stdc++.h>
 using namespace std;
-
-
 
 int main() {
 	freopen("input.txt", "r", stdin);
